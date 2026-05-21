@@ -25,7 +25,7 @@ image фото9:
     "шалаш с костром"
     zoom 2.0
 # Спрайты (уменьшаем масштаб)
-image мужчина = Transform("мужчина.png", zoom=0.5)
+image мужчина = "мужчина.png"
 image женщина = Transform("женщина.png", zoom=0.5)
 
 # ================= ПОЗИЦИИ ПЕРСОНАЖЕЙ =================
@@ -33,7 +33,7 @@ image женщина = Transform("женщина.png", zoom=0.5)
 # xalign 0.25 - слева, xalign 0.75 - справа
 transform high_left:
     xalign 0
-    yalign 0.53
+    yalign 0.9999999
 
 transform high_right:
     xalign 0.9999999
